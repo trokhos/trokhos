@@ -2,5 +2,5 @@ package trokhos
 
 import "embed"
 
-//go:embed all:frontend/dist migrations/*.go
+//go:embed all:frontend/.output/public migrations/*.go
 var FS embed.FS
